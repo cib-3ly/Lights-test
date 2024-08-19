@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn the lights on!</title>
+    <link rel="shortcut icon" href="light-bulb-on.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <main>
+            <header>
+                <h1>
+                    <p>Turning the lights on/off!</p>
+                </h1>
+                <h3>
+                    Click on the buttons to see what happen!
+                </h3>
+            </header>
+            <nav class="offL">
+                <img src="light-bulb.png" class="off" id="bulb">
+                <img src="street-light.png" class="off" id="street">
+            </nav>
+            <nav class="onL">
+                <img src="light-bulb-on.png" class="on" id="bulb" style="display: none;">
+                <img src="street-light-on.png" class="on" id="street" style="display: none;">
+            </nav>
+            <nav class="buttons">
+                <button onclick="document.getElementById('bulb').src='light-bulb-on.png'; 
+                document.getElementById('street').src='street-light-on.png'">On</button>
+                <button onclick="document.getElementById('bulb').src='light-bulb.png'; 
+                document.getElementById('street').src='street-light.png'">Off</button>
+            </nav>
+            <footer>
+                Coded by <a href="https://github.com/cib-3ly"><b>Cibely</b></a>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

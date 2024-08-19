@@ -1,0 +1,100 @@
+main {
+    margin-top: 16px;
+}
+
+body { 
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header, h1 {
+    font-size: 30px;
+    font-weight: 10px;
+}
+
+header, h3 {
+    font-size: 15px;
+    font-weight: 50;
+    margin-top: -35px;
+}
+
+nav, img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.onL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.offL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+    background-color: #3b3b3b;
+    border-radius: 43px;
+    margin-top: 18%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 18%;
+}
+
+button {
+    border-radius: 15px;
+    background-color: rgb(50, 50, 50);
+    border: 2px solid rgb(50, 50, 50);
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    margin: 25px;
+    margin-top: 40%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(255, 255, 157);
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 12px;
+}
